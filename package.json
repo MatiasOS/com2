@@ -1,0 +1,26 @@
+{
+  "name": "com2",
+  "version": "1.0.0",
+  "description": "TP COM2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate:peerId": "node scripts/peerId.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiasOS/com2.git"
+  },
+  "keywords": [
+    "libp2p"
+  ],
+  "author": "Matías Oveja Smith <matias.ovejasmith@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/MatiasOS/com2/issues"
+  },
+  "homepage": "https://github.com/MatiasOS/com2#readme",
+  "dependencies": {
+    "peer-id": "^0.14.2"
+  }
+}
